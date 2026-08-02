@@ -1,0 +1,51 @@
+text,true_label,predicted_label,confidence
+"Faida za kiafya za kushangaza za kutembea kwenda nyuma
+Kutembea hakuhitaji vifaa maalum au uanachama wa sehemu za mazoezi (gym) na bora zaidi, ni bure kabisa. Kwa wengi wetu, kutembea ni kitu tunachofanya kama ni jambo la kawaida tu. Haihitaji juhudi za makusudi, kwa hivyo wengi wetu hatukumbuki fai",sports,health,0.8589527201943687
+"Vita vya Ukraine: Sura zilizotumika kumtangaza Vladimir Putin mitandaoni
+ER Yamini msichana mwenye ushawishi katika mitandao ya kijamii nchini India, hajawahi kuchapisha kitu chochote katika mtandao wa Twitter  maishani mwake - anapendelea kuongeza wafuasi wake wakubwa kwenye mtandao wa  Instagram n",politics,technology,0.8360273602928162
+"Isabel dos Santos: Mwanamke tajiri zaidi Afrika 'aliipora Angola'
+Hati zilizovuja zinaonyesha jinsi mwanamke tajiri barani Afrika alivyopata utajiri wake kupitia unyonyaji kwa nchi yake na ufisadi. Isabel dos Santos alipata mikataba ya faida kubwa inayojumuisha ardhi, mafuta, almasi na simu wakati b",politics,business,0.8226405564028892
+"Siku 100 za utawala wa Ruto: Uzito kwa rais wa Kenya kuambatanisha maneno na vitendo
+Siku zina kasi.Na hazina huruma  iwapo ndimi za viongozi wa kisiasa zinatoa cheche na ahadi na kusikika kama  wimbo mtamu katika masikio ya wapiga kura na wananchi kwa jumla . Kwa rais wa Kenya William Ruto  siku za",business,politics,0.7695330325895413
+"Jinsi tiba ya saratani ya dhahabu, ubani na manukato inavyohusishwa na Yesu Kristo
+Mapambo yanayotengenezwa katika onyesho la Krismasi huonyesha vitu vitatu vikitolewa kama zawadi. Hadithi inaelezea kuwa wanaume wenye busara walikuja na kumpatia mtoto Yesu dhahabu, ubani na manukato. Vitu hivi vitat",religion,health,0.7682628117404309
+"Je vikwazo vya Marekani ndio sababu ya maandamano haya?
+Maandamano yamezuka katika maeneo tofauti nchini Iran bada ya serikali kutangaza ghafla mpango wa kuuza mafuta kwa mgao na kuongeza bei ya bidhaa hiyo. Kwa mujibu wa ripoti ya shirika la habari la kitaifa bei ya mafuta ilipanda kwa 50% siku ya ",politics,business,0.7247957894760707
+"Maonyesho ya Dubai 2020: Mfahamu rais wa zamani wa Marekani aliyeweka Korani ofisini kwake
+Tafsiri ya nadra ya kitabu Korani ya rais wa zamani wa Marekani  Thomas Jefferson inaonyeshwa katika Maonyesho ya Dubai yamwaka 2020. Ni mara  ya kwanza kwa nakala hii kutolewa  nje Marekani tangu karne ya kum",politics,religion,0.7141163311888608
+"Virusi vya corona: Kwa nini watoto waliozaliwa na kina mama wa kupanga wamekwama Ukraine?
+Watoto waliozaliwa na kina mama wa kupanga wamekwama nchini Ukraine  kutokana na masharti ya kutotoka nje kukabiliana na virusi vya corona.",business,health,0.6967465693417523
+"Kuku wanaokuzwa maabara ni mlo salama, wasema wadhibiti wa viwango Marekani
+Nyama inayokuzwa katika maabara  imeidhinishwa kuliwa na binadamu kwa mara ya kwanza. Shirika la usalama wa chakula na dawa nchini Marekani  (FDA),  limetoa idhini ya kuliwa kwa kuku ambao seli zao zinakuzwa ndani ya maabara",religion,business,0.6742214271051521
+"Uchaguzi Tanzania 2020: Kwa mara ya kwanza Tanzania itafanya uchaguzi bila kutegemea msaada wa nje
+Bajeti ya uchaguzi ni moja kati ya masuala ya msingi zaidi ambayo huenda yakachangia shughuli za uchaguzi kwenda kwa uafinisi ama kusuasua. Katika uchaguzi wa nchi nyingi zinazoendelea hasa Barani Afri",business,politics,0.6456222161602111
+"Kampeni ya End Sars: Jinsi maandamano dhidi ya ukatili wa polisi yalivyoenea duniani
+Raia wa Nigeria wamekuwa wakiandamana  kwa miaka dhidi ya ukatili wa polisi , lakini ni kanini maandamano ya mwezi Oktoba yamepata kutambuliwa na uungaji mkono kwa kiwango ambacho hakijawahi kushuhudiwa kabla?. kati",politics,technology,0.6428846927029265
+"Sheikh Mansour bin Zayed: Fahamu jinsi mmiliki wa Machester City anavyodaiwa kuwasaidia mabilionea wa Urusi kuhamisha utajiri wao kuelekea UAE
+Nje ya Falme za Kiarabu, Sheikh Mansour bin Zayed Al Nahyan anafahamika zaidi kuwa mmiliki wa klabu ya soka ya Uingereza ya Manchester City huku nyumbani, ye",sports,business,0.6365345466488888
+"Kwanini China iko tayari kupigana vita na ulimwengu ili kutetea bahari yake ya kusini mwa China?
+Bahari ya Kusini mwa China imekuwa kwenye mjadala kwa miaka kadhaa iliyopita. China inadai kuwa eneo hilo ni lake na liko kwenye mradi mkubwa wakijenga kisiwa katika eneo hilo. Ikiwa suala hilo lilikuwa ",politics,business,0.6362430021997556
+"Urusi inavyotumia pesa nyingi kumlinda Putin dhidi ya Covid
+Katika kilele cha janga la Covid, Rais wa Urusi Vladimir Putin alikuwa mmoja wa viongozi wa serikali waliolindwa zaidi ulimwenguni - bado hali iko hivyo, licha ya kuplegezwa  kwa hatua za kupambana na  coronavirus kote ulimwenguni. Kila mtu",politics,health,0.580671553607086
+"Korea Kaskazini yazindua kombora jipya 'linaloweza kurushwa kutoka kwa manowari
+Taifa la Korea Kaskazini limezindua kombora jipya la masafa marefu linaloweza kurushwa kutoka kwa manowari ambalo vyombo vya habari vya vya taifa hilo vimelielezea kuwa kama 'kombora lenye uwezo mkubwa duniani'. Makombor",technology,politics,0.5650525512911586
+"Diego Maradona: Aliyekuwa daktari wa Maradona achunguzwa kuhusiana na kifo cha nyota huyo
+Waendesha mashitaka nchini Argentina wanamchunguza daktari wa Diego Maradona kwa uwezekano wa kuua kufuatia kifo cha nyota huyo wa soka kilichotokea siku nne zilizopita . Polisi mjini  Buenos Aires wameisaka ny",sports,health,0.5628435030186733
+"Kauli ya Serikali ya Tanzania kuhusu t﻿ozo yapokelewa kwa hisia mseto
+Y﻿usuph Mazimu, BBC Swahili S﻿erikali ya Tanzania leo imelazimika kutoa ufafanuzi kuhusu masuala ya tozo ya miamala ya simu na benki ambazo ni moja ya tozo zinazopigiwa kelele kwa muda sasa. I﻿ngawa tozo ya miamala ya simu ilianza",politics,business,0.5625249494102813
+"Aisha Bakari Mohamed: Dj wa kwanza mwanamke anayevalia hijab Zanzibar
+Aisha Bakari Mohamed maarufu kama DJ Babymama ni msichana wa kwanza wa kizanzibari anaefanya shughuli za kupiga muziki katika maeneo mbalimbali (DJ). Huvalia mavazi ya kujistiri ikiwemo hijab wakati wa kazi zake, na kupiga muziki ",religion,entertainment,0.5582384540757824
+"Samia Suluhu Hassan aingia kwenye orodha ya watu wenye ushawishi mkubwa Duniani miongoni mwa Waislamu
+Taasisi ya Kifalme Al-Bayat ya Jordan kwa ajili ya Kiislamu yaani The Royal Al Al-Bayat Institute for Islamic Thought (RABIIT) imetoa orodha ya watu 500 wenye ushawishi wa Kiislam kutoka duniani kot",religion,politics,0.558118707355353
+"Fahamu mifumo ya ulinzi  ambayo Iran imetuma kwenda Urusi
+Taarifa iliyotolewa wiki iliyopita kuhusu jeshi la Iran kupeleka droni Urusi  haikuja kama jambo la kushangaza -taarifa kuhusu mipango ya Moscow ya kupata ndege zisizo na rubani (UAVs) kutoka kwa Tehran zilichapishwa mapema mwezi Julai, kulin",politics,business,0.5483434420631212
+"Waridi wa BBC: Safari ya Rahab Mwangi ya kutoka kuwa mraibu hadi mchungaji kanisani Uingereza
+Mchungaji Rahab Mwangi anakumbuka vyema  jaribio lake la kwanza la kuvuta sigara . Wakati huo alikuwa amehamishwa kutoka nchini Kenya alikozaliwa na kuanza maisha mapya nchini Uingereza , ambapo wazazi  wak",religion,health,0.5149418468863124
+"Coronavirus: Hivi ndivyo unavyoweza kuzuwia sambaa kwa taarifa potofu
+Taarifa potofu juu ya Coronavirus zimesambaa katika mitandapo na wataalamu wanatoa wito kwa umma kutumia  ""taarifa safi"". lakini je ni vipi unavyoweza kufanya ili kuzuwia kusambaa kwa taarifa mbaya ? 1. Tulia na ufikirie kwanza Un",technology,health,0.5109943122968689
+"Coronavirus: Mahakama Kenya yafunga baadhi ya shughuli zake
+Sekta ya mahakama nchini Kenya imechukua hatua ya kufunga baadhi ya shughuli zake kufuatia taarifa ya kupatikana kwa mtu wa kwanza mwenye virusi  vya  corona nchini humo. Akizungumza na waandishi wa habari Jaji Mkuu nchini humo David  Marag",politics,health,0.5058480142241214
+"Wajinga Nyinyi: Jinsi wasanii wa Afrika Mashariki wanavyopambana kupitia vipaza sauti kuleta mabadiliko
+Miongoni mwa kazi za ya msanii ni kuielimisha, kuiburudisha, kuiliwaza na kuikosoa jamii na asipotekeleza hayo basi kazi yake haijakamilika. Lakini je wasanii wa muziki wa Afrika Mashariki wamewez",entertainment,politics,0.4934732790802542
+"Virusi vya corona: Sababu zilizolifanya kanisa Katoliki Tanzania kutoa tahadhari juu ya corona
+Kanisa Katoliki nchini Tanzania limetoa tahadhari juu ya wimbi jipya la  maambukizi ya corona na kuwataka wananchi kuchukua hatua zote za kujikinga. Padre Charles Kitima anaelezea kwanini kanisa limefikia ",health,religion,0.4770152678706325
