@@ -123,6 +123,11 @@ def main(epochs=5, batch_size=16, lr=2e-5):
     print(f"best validation macro F1: {best_f1:.4f}, evaluating that checkpoint on test")
     model.load_state_dict(best_state)
     model.to(device)
+
+    save_dir = data.DATA_DIR.parent / "models" / "afriberta"
+    model.save_pretrained(save_dir)
+    tokenizer.save_pretrained(save_dir)
+    print(f"best checkpoint saved to {save_dir}")
     test_pred, test_prob = predict(model, test_loader, device)
     metrics = evaluate.evaluate(
         "afriberta",

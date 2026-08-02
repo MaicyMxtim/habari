@@ -2,5 +2,6 @@
 __pycache__/
 *.pyc
 data/
+models/
 .DS_Store
 *.egg-info/

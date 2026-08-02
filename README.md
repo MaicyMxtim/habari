@@ -46,5 +46,5 @@ python -m habari.train_transformer
 
 1. Classical baseline with full evaluation harness (done)
 2. Fine-tuned masked language model (AfriBERTa) (done)
-3. QLoRA fine-tune of a small open LLM, compared under the same harness
+3. QLoRA fine-tune of a small open LLM, compared under the same harness — [notebook ready to run on Colab](https://colab.research.google.com/github/MaicyMxtim/habari/blob/main/notebooks/qlora_swahili_news.ipynb)
 4. Deployment on a self-built Kubernetes MLOps platform with monitoring
