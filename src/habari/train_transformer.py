@@ -82,7 +82,10 @@ def main(epochs=5, batch_size=16, lr=2e-5):
     labels = data.label_names()
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     model = AutoModelForSequenceClassification.from_pretrained(
-        MODEL_NAME, num_labels=len(labels)
+        MODEL_NAME,
+        num_labels=len(labels),
+        id2label=dict(enumerate(labels)),
+        label2id={label: i for i, label in enumerate(labels)},
     ).to(device)
 
     train_df, val_df, test_df = data.load("train"), data.load("validation"), data.load("test")

@@ -47,4 +47,16 @@ python -m habari.train_transformer
 1. Classical baseline with full evaluation harness (done)
 2. Fine-tuned masked language model (AfriBERTa) (done)
 3. QLoRA fine-tune of a small open LLM, compared under the same harness — [notebook ready to run on Colab](https://colab.research.google.com/github/MaicyMxtim/habari/blob/main/notebooks/qlora_swahili_news.ipynb)
-4. Deployment on a self-built Kubernetes MLOps platform with monitoring
+4. Deployment on a self-built Kubernetes MLOps platform with monitoring (done)
+
+## Serving
+
+The fine-tuned AfriBERTa checkpoint is served by a FastAPI service ([services/serve](services/serve)) with Prometheus metrics, and runs as a Kubernetes deployment ([deploy/k8s](deploy/k8s)) on [Akili](https://github.com/MaicyMxtim/akili), a self-built MLOps platform on a multi-node k3d cluster, where Prometheus scrapes it via a ServiceMonitor.
+
+```
+curl -X POST http://habari-serve.habari.svc:8000/predict \
+  -H "Content-Type: application/json" \
+  -d '{"text": "Wizara ya afya imetangaza kampeni mpya ya chanjo dhidi ya malaria"}'
+
+{"label": "health", "confidence": 0.99, ...}
+```

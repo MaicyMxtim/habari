@@ -1,0 +1,7 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+torch>=2.4
+transformers>=4.44
+sentencepiece>=0.2
+protobuf>=4.25
+prometheus-fastapi-instrumentator>=7.0
