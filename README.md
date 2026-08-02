@@ -9,8 +9,10 @@ Most NLP portfolio work reports a single accuracy number on a high-resource Engl
 | Model | Accuracy | Macro F1 | 95% CI (F1) |
 |---|---|---|---|
 | TF-IDF + Logistic Regression | 0.834 | 0.806 | 0.761–0.846 |
-| Fine-tuned AfriBERTa | _pending_ | _pending_ | _pending_ |
+| Fine-tuned AfriBERTa | 0.874 | 0.857 | 0.818–0.893 |
 | QLoRA fine-tuned small LLM | _pending_ | _pending_ | _pending_ |
+
+Fine-tuning AfriBERTa lifts macro F1 from 0.806 to 0.857. The largest gain lands on the weakest class: entertainment improves from 0.667 to 0.800 F1. The confidence intervals overlap at their edges, which is itself an honest finding on a 476-example test set — the transformer helps, but a single headline accuracy number would overstate how decisively.
 
 ## Why Swahili
 
@@ -24,6 +26,7 @@ habari/
     data.py        # dataset download and preparation
     evaluate.py    # metrics with bootstrap confidence intervals
     baseline.py    # TF-IDF + logistic regression baseline
+    train_transformer.py  # AfriBERTa fine-tuning, plain PyTorch loop
   data/            # cached dataset (not committed)
   results/         # metrics, confusion matrices, error analysis
 ```
@@ -36,11 +39,12 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python -m habari.data
 python -m habari.baseline
+python -m habari.train_transformer
 ```
 
 ## Roadmap
 
 1. Classical baseline with full evaluation harness (done)
-2. Fine-tuned masked language model (AfriBERTa)
+2. Fine-tuned masked language model (AfriBERTa) (done)
 3. QLoRA fine-tune of a small open LLM, compared under the same harness
 4. Deployment on a self-built Kubernetes MLOps platform with monitoring
