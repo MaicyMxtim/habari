@@ -1,8 +1,8 @@
 ,business,entertainment,health,politics,religion,sports,technology
-business,53,0,4,3,1,1,2
-entertainment,0,16,1,0,2,0,1
+business,52,0,6,3,0,1,2
+entertainment,0,15,2,0,2,0,1
 health,5,0,91,1,2,0,1
-politics,12,1,2,81,2,0,2
-religion,0,1,3,2,53,0,0
-sports,1,0,3,1,0,95,0
-technology,2,2,1,1,0,0,27
+politics,10,1,2,83,2,0,2
+religion,0,1,4,2,52,0,0
+sports,1,0,5,1,0,93,0
+technology,3,0,2,1,0,0,27
